@@ -22,7 +22,6 @@ class MyApp extends StatelessWidget {
         backgroundColor: Colors.grey[300],
         body: Column(
           children: [
-            // First Container
             Container(
               padding: EdgeInsets.all(16),
               decoration: BoxDecoration(
@@ -46,8 +45,7 @@ class MyApp extends StatelessWidget {
                 textAlign: TextAlign.center,
               ),
             ),
-            SizedBox(height: 16), // Spacer between the two containers
-            // Second Container
+            SizedBox(height: 16),
             Container(
               padding: EdgeInsets.symmetric(vertical: 12, horizontal: 20),
               decoration: BoxDecoration(
